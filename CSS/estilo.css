@@ -1,0 +1,118 @@
+
+    html{
+        background-position:center;
+      
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPRA3dIRtJZyhvYq8O3eyd8QPPyfiLGezMfw&usqp=CAU");
+        background-color: #000000;
+        font-weight: 1110;
+    }
+    h1{
+        font-family: 'Lobster', cursive;
+        font-size: 40px;
+        border-color: #fc9107;
+    }
+    h2{
+        font-family: 'Lobster', cursive;
+    }
+    p{
+        font-family: 'Abel', sans-serif;
+font-family: 'Lobster', cursive;
+    }
+    div{
+
+        align-items: center;
+        background-color: aliceblue;
+        opacity: .9;
+        width: 40%;
+        margin: 5;
+        border-radius: 30;
+        margin: 1rem;
+        padding: 1rem;
+        border: 2px solid #ccc;
+  /* IMPORTANTE */
+        text-align: center;
+        margin: 0 auto;
+        
+        
+    }
+
+    table{
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #button {
+        background-color: white;
+        color: black;
+        border: 2px solid #fc9107; /* Green */
+        width: 150px;
+        height: 40px;
+    }
+    #ci {
+        background-color: white;
+        color: black;
+        border: 2px solid #fc9107; /* Green */
+        width: 150px;
+        height: 40px;
+    }
+    #de {
+        background-color: white;
+        color: black;
+        border: 2px solid #fc9107; /* Green */
+        width: 150px;
+        height: 40px;
+    }
+    
+
+    #button {
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+    }
+    
+    #button:hover {
+        background-color: #fc9107; /* Green */
+        color: white;
+    }
+    
+
+    #ci {
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+    }
+    
+    #ci:hover {
+        background-color: #fc9107; /* Green */
+        color: white;
+    }
+
+    #de {
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+    }
+    
+    #de:hover {
+        background-color: #fc9107; /* Green */
+        color: white;
+    }
+    
+    #cadena {
+        background-color: rgb(255, 168, 86);
+        color: black;
+        border: 2px solid #fc9107; /* Green */
+    }
+    #mess {
+        background-color: rgb(255, 168, 86);
+        color: black;
+        border: 2px solid #fc9107; /* Green */
+    }
+    #llave {
+        background-color: rgb(255, 168, 86);
+        color: black;
+        border: 2px solid #fc9107; /* Green */
+    }
+    #garfil{
+        background-image: url("https://i.redd.it/u9z8xpp3p8i21.jpg");
+        background-color: #000000;
+        height: 300px;
+        color: aliceblue;
+    }

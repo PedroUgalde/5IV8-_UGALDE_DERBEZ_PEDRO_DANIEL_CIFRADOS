@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Lobster&display=swap" rel="stylesheet">
+    <title>Cifrado Cesar</title>
+</head>
+<body>
+   <table ALIGN="center">
+
+    <tr>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+        <script src="JS/02Vigenere.js" > </script>
+        <div>
+            <h1> CIFRADO CESAR Y VIGENERE </h1>
+            <BR></BR>
+            <h2> UGALDE DERBEZ PEDRO DANIEL 5IV8</h2>
+            <P>Tarea de cifrados, con gatitos de fondo uwu</P>
+    
+            
+        </div>
+    
+    </tr>
+    <tr>
+        <div>
+            <p>INGRESE EL TEXTO QUE DESEE CIFRAR A MODO CESAR :></p>
+            <textarea id="cadena" ></textarea>
+            <p> <input type="button" value="Cifrar" onclick="codificar()" id="button" name="button">
+                <input type="button" value="Descifrar" onclick="decodificar()" id="button">   </p>
+        
+            <div id="resultado" ></div>
+        </div>
+        
+        
+        
+    </tr>
+    <tr>
+        <div id="garfil">
+            
+        </div>
+    </tr>
+    <tr><div>
+        <P>INSERTE LA LLAVE Y EL MENSAJE QUE DESEE CIFRAR CON VIGENERE</P>
+        <textarea id="mess" value="mensaje"></textarea>
+        <textarea id="llave" value="llave"></textarea>
+        <p> <input type="button" value="cifrar" id="ci" name="ci" >
+            <input type="button" value="decifrar" id="de" name="de" >   </p>
+    
+        <div id="rs" ></div>
+        <script src="JS/01Cesar.js" > </script>
+    </div> </tr>
+
+    
+   </table>
+</body>
+</html>
